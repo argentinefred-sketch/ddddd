@@ -1,0 +1,99 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+body{width:794px;height:1123px;overflow:hidden;font-family:'Montserrat',sans-serif;background:#fff;color:#1A1A1A;}
+.page{width:794px;height:1123px;position:relative;}
+
+/* ── Barre rouge top ── */
+.top-bar{position:absolute;top:0;left:0;width:794px;height:8px;background:#D60000;}
+
+/* ── Header (dans la zone de sécurité) ── */
+.header{position:absolute;top:16px;left:79px;width:636px;display:flex;justify-content:space-between;align-items:center;}
+.header span{font-size:7px;font-weight:600;color:#AAAAAA;letter-spacing:.3px;}
+
+/* ── Zone de contenu stricte 79px → 715px ── */
+.content{position:absolute;top:52px;left:79px;width:636px;bottom:52px;}
+
+/* ── Footer (dans la zone de sécurité) ── */
+.footer{position:absolute;bottom:16px;left:79px;width:636px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #E8E8E8;padding-top:10px;}
+.footer span{font-size:7.5px;font-weight:600;color:#AAAAAA;}
+.footer .rouge{color:#D60000;}
+
+/* ── Typographie ── */
+.label{font-size:8px;font-weight:700;color:#D60000;letter-spacing:3px;text-transform:uppercase;margin-bottom:5px;}
+.titre{font-size:22px;font-weight:800;color:#0F0F0F;line-height:1.1;letter-spacing:-.5px;margin-bottom:7px;}
+.filet{width:40px;height:3px;background:#D60000;margin-bottom:26px;}
+.body{font-size:10.5px;font-weight:400;color:#333333;line-height:1.7;margin-bottom:14px;}
+.sep{width:100%;height:1px;background:#EBEBEB;margin:20px 0;}
+
+/* ── Steps ── */
+.step{display:flex;gap:14px;margin-bottom:18px;align-items:flex-start;}
+.step-n{min-width:34px;height:34px;background:#D60000;color:#fff;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.step-title{font-size:10.5px;font-weight:700;color:#0F0F0F;margin-bottom:4px;}
+.step-body{font-size:9.5px;color:#555555;line-height:1.6;}
+
+/* ── Note encart ── */
+.note{background:#F5F5F5;border-left:3px solid #D60000;padding:11px 14px;margin-top:18px;}
+.note p{font-size:9px;color:#666;line-height:1.6;font-style:italic;}
+
+/* ── 2 colonnes ── */
+.col2{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.col-title{font-size:9.5px;font-weight:700;color:#0F0F0F;border-bottom:2px solid #D60000;padding-bottom:5px;margin-bottom:10px;}
+.item{display:flex;gap:7px;margin-bottom:6px;align-items:flex-start;}
+.dot{width:5px;height:5px;min-width:5px;background:#D60000;margin-top:5px;}
+.dot-g{width:5px;height:5px;min-width:5px;background:#CCCCCC;margin-top:5px;}
+.item p{font-size:9px;color:#444;line-height:1.5;}
+
+/* ── Bloc sombre ── */
+.dark{background:#0F0F0F;padding:14px 18px;margin-top:18px;}
+.dark p{font-size:10px;color:#fff;line-height:1.7;}
+.dark strong{color:#D60000;}
+
+/* ── Tableau ── */
+table{width:100%;border-collapse:collapse;}
+tr:first-child td{background:#0F0F0F;color:#fff;font-size:7.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
+tr:nth-child(even):not(:first-child) td{background:#F9F9F9;}
+td{padding:10px 13px;font-size:9.5px;line-height:1.5;border-bottom:1px solid #EBEBEB;vertical-align:top;}
+td:first-child{font-weight:700;color:#D60000;width:34%;}
+tr:first-child td:first-child{color:#fff;}
+
+/* ── Stats ── */
+.stats{display:flex;border-top:1px solid #EBEBEB;border-bottom:1px solid #EBEBEB;padding:18px 0;margin-top:28px;}
+.stat{flex:1;text-align:center;}
+.stat+.stat{border-left:1px solid #EBEBEB;}
+.stat-n{font-size:26px;font-weight:800;color:#D60000;line-height:1;}
+.stat-l{font-size:7px;font-weight:700;color:#AAA;letter-spacing:2px;margin-top:4px;text-transform:uppercase;}
+
+/* ── Suite démarche ── */
+.next{display:flex;gap:10px;margin-bottom:12px;align-items:flex-start;}
+.next-n{min-width:24px;height:24px;background:#F2F2F2;color:#D60000;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.next p{font-size:9.5px;color:#333;line-height:1.6;}
+.next strong{color:#0F0F0F;}
+
+/* ── Citation ── */
+.citation{margin-top:26px;padding:16px 20px;border-left:4px solid #D60000;background:#F9F9F9;}
+.citation p{font-size:10.5px;line-height:1.7;color:#1A1A1A;font-style:italic;}
+.citation small{display:block;font-size:8px;color:#888;margin-top:8px;font-weight:600;font-style:normal;}</style></head>
+<body data-document-role="page"><div class="page">
+<div class="top-bar"></div>
+<div class="header"><span>S12_Grille_Questionnement_RireEnVosges_Frederic_Balland</span><span>Frédéric Balland · La WAB 2025–2026</span></div>
+<div class="content">
+  <div class="label">04 — Projet</div>
+  <div class="titre">Fiche d'identité<br>du projet</div>
+  <div class="filet"></div>
+  <table>
+    <tr><td>Élément</td><td>Description</td></tr>
+    <tr><td>Client</td><td>Association Rire en Vosges</td></tr>
+    <tr><td>Secteur</td><td>Culturel associatif / Événementiel</td></tr>
+    <tr><td>Activité</td><td>Organisation d'un festival d'humour annuel (en automne)</td></tr>
+    <tr><td>Lieu principal</td><td>Salle des Fêtes de la Coupole, Remomeix (Vosges)</td></tr>
+    <tr><td>Public cible</td><td>Spectateurs locaux et régionaux, familles, bénévoles, partenaires</td></tr>
+    <tr><td>Type de projet</td><td>Refonte de site vitrine associatif avec accès billetterie</td></tr>
+    <tr><td>Objectif principal</td><td>Augmenter la visibilité du festival et le volume des réservations</td></tr>
+    <tr><td>Objectif UX</td><td>Simplifier l'expérience visiteur et fluidifier l'achat de billets sur mobile</td></tr>
+    <tr><td>Contraintes clés</td><td>Budget associatif limité, bénévoles peu disponibles, solution facile à maintenir</td></tr>
+    <tr><td>Livrables attendus</td><td>Stratégie UX, arborescence, wireframes, Design System et prototype interactif</td></tr>
+  </table>
+  <div style="font-size:8px;color:#AAA;margin-top:12px;font-style:italic;">Données recueillies lors de l'entretien de cadrage avec le président de l'association — Juin 2026.</div>
+</div>
+<div class="footer"><span>04</span><span class="rouge">rire-en-vosges.fr</span></div>
+</div></body></html>
